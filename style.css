@@ -1,0 +1,134 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background: #2563eb;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.account-btn {
+  background: white;
+  color: #2563eb;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.account-btn:hover {
+  background: #f0f0f0;
+}
+
+/* Main Layout */
+main {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Card Style */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: inset 0 2px 8px rgba(0,0,0,0.05), 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Buttons */
+button, .primary-btn {
+  padding: 10px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover, .primary-btn:hover {
+  opacity: 0.9;
+}
+
+/* Button Colors */
+.unlock-btn {
+  background: #16a34a;
+  color: white;
+}
+
+.lock-btn {
+  background: #dc2626;
+  color: white;
+}
+
+.primary-btn {
+  background: #2563eb;
+  color: white;
+  margin-top: 12px;
+}
+
+.otp-btn {
+  background: #9333ea;
+  color: white;
+}
+
+/* Status Text */
+.status {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.locked {
+  color: #dc2626;
+}
+
+.unlocked {
+  color: #16a34a;
+}
+
+/* Input */
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 12px;
+  background: #f1f1f1;
+  color: #555;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
